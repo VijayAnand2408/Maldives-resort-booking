@@ -12,7 +12,7 @@ function Services() {
             <div className="ser">
 
             
-            <h2><span className="firstLetter">O</span>ur  <span className="firstLetter">S</span>ervices</h2>
+            <h2><span className="firstLetter">O</span>UR  <span className="firstLetter">S</span>ERVICES</h2>
             <h2>________</h2>
             <div className="dai">
             <div className="row">
