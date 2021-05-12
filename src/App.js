@@ -5,6 +5,8 @@ import Header from "./Component/Header"
 import About from "./Component/About"
 import Services from "./Component/Services"
 import Resort from "./Component/Resort"
+import Gallary from "./Component/Gallary"
+import Footer from "./Component/Footer"
 
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
    <Header />
    <Services />
    <Resort />
+   <Gallary />
    <About />
+   <Footer />
    
   
   </div>
