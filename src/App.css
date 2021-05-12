@@ -2,8 +2,6 @@
 
 
 * {
-  margin: 0 !important;
-  padding : 0;
   font-family : 'Itim', cursive;
 }
 
@@ -126,15 +124,17 @@ left: 0;
 right: 0;
 margin-right: 0 !important;
 font-size: 5rem;
+padding-top: 7rem;
 }
   
 .woo{
   text-align: center !important;
 top: 0;
-bottom: 0;
 left: 0;
 right: 0;
 padding-top: 1rem;
+margin-bottom: 3rem;
+padding-bottom: 5rem;
 
 }
   /*______________________Service_____________________________*/
@@ -146,6 +146,8 @@ padding-top: 1rem;
     padding-top: 2.5rem;
     padding-bottom: 0.7rem;
   }
+
+ 
 
   .dai{
     
@@ -175,7 +177,7 @@ padding-top: 1rem;
   .card{
     width: 18rem;
     margin-bottom: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     width: 100%;
   }
 
@@ -212,3 +214,68 @@ padding-top: 1rem;
    width: 100%;
    border-radius: 3rem;
  }
+
+
+
+/*______________________________carousel______________________________*/
+
+.text-lg-center{
+font-size: 4rem;
+}
+
+.carousel.slide{
+  padding-top: 3.5rem !important;
+}
+
+
+/*________________________________Footer_____________________________________________*/
+
+
+.foot{
+  background-color: #2e343d;
+  color: #b7b7b7;
+}
+
+.foot-text{
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 6rem;
+  padding-top: 2rem;
+}
+
+.h4{
+  text-align: center;
+}
+hr.h{
+  border: #b7b7b7;
+  border-top: 6px solid #8c8b8b;
+  border-radius: 10rem;
+  padding-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.ico{
+  width: 4rem;
+  height: 3rem;
+  background-color: #b7b7b7;
+  color: #2e343d;
+  border-radius: 100px;
+  border: 155px;
+  padding: 13px;
+  margin-top: 2rem;
+}
+
+.le{
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.re {
+  padding-right: 1rem;
+}
+
+.lef{
+  padding-left: 1rem;
+}
+
