@@ -1,0 +1,281 @@
+
+
+
+* {
+  font-family : 'Itim', cursive;
+}
+
+
+/*______________________________Navbar__________________________________*/
+
+
+
+.navbar {
+  width: 100% !important;
+  height: auto;
+  color: white;
+  background-color: transparent !important;
+  position: fixed !important;
+  z-index: 2;
+  padding-top: 0.8rem;
+  
+}
+
+.navbar-nav {
+  margin-left: auto !important;
+  /* padding: 1rem !important; */
+  padding-right: 2rem !important;
+  font-style: bold !important;
+  font-weight: 500;
+
+}
+
+
+.nav-item{
+  padding-right: 2rem !important;
+  color:slateblue !important;
+}
+
+.navbar-nav > li >a.action, .navbar-nav > li > a:hover {
+  border-bottom: rgb(163, 245, 248) solid 0.1rem;
+
+}
+
+
+.navbar.active {
+  background-color: slategrey  !important;
+  border-radius: 0.3rem;
+  width: 100% !important;
+  height: auto;
+  color: white;
+  position: fixed !important;
+  z-index: 2;
+  padding-top: 3.5rem;
+  background-size: cover;
+  
+}
+
+.collapse.show{
+  background-color: slategray;
+  height: auto;
+  width: 100vw;
+  border-radius: 2rem;
+}
+
+.navbar-collapse ul > li {
+  padding-left: 1rem;
+}
+
+
+/*________________________________Header_______________________________________*/
+
+.img-fluid{
+  background-image: url("./images/maldives-wallpaper.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.wrap{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  
+}
+.type {
+  mix-blend-mode: difference;
+}
+
+.wrap h1 {
+  text-transform: uppercase;
+  font-family: 'Itim', cursive;
+}
+
+.wrap h1 span .type {
+  color:  #87ceeb;
+}
+
+.jumbotron {
+  width: 100% !important;
+}
+
+.jumbotron-fluid {
+  padding-top: 0 !important;
+}
+
+
+
+/*_____________________________About us_______________________________________*/
+
+.ab {
+text-align: center !important;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin-right: 0 !important;
+font-size: 5rem;
+padding-top: 7rem;
+}
+  
+.woo{
+  text-align: center !important;
+top: 0;
+left: 0;
+right: 0;
+padding-top: 1rem;
+margin-bottom: 3rem;
+padding-bottom: 5rem;
+
+}
+  /*______________________Service_____________________________*/
+
+  .ser {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: fantasy;
+    padding-top: 2.5rem;
+    padding-bottom: 0.7rem;
+  }
+
+ 
+
+  .dai{
+    
+    padding-top: 3rem;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 3rem;
+  }
+
+.row {
+  margin-bottom: 1.5rem !important;
+}
+
+.col{
+  font-size: 1.5rem !important;
+}
+
+  .firstLetter {
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  /*_______________________Card______________________________________*/
+
+  .card{
+    width: 18rem;
+    margin-bottom: 2rem;
+    padding-bottom: 5rem;
+    width: 100%;
+  }
+
+
+  .chill h2{
+    font-family: sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .row.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-title {
+    text-align: center;
+    font-size: 2rem;
+    text-shadow:1px 1px black;
+    padding-bottom: 2rem;
+  }
+
+ .col {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .btn{
+   width: 100%;
+   border-radius: 3rem;
+ }
+
+
+
+/*______________________________carousel______________________________*/
+
+.text-lg-center{
+font-size: 4rem;
+}
+
+.carousel.slide{
+  padding-top: 3.5rem !important;
+}
+
+
+/*________________________________Footer_____________________________________________*/
+
+
+.foot{
+  background-color: #2e343d;
+  color: #b7b7b7;
+}
+
+.foot-text{
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 6rem;
+  padding-top: 2rem;
+}
+
+.h4{
+  text-align: center;
+}
+hr.h{
+  border: #b7b7b7;
+  border-top: 6px solid #8c8b8b;
+  border-radius: 10rem;
+  padding-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.ico{
+  width: 4rem;
+  height: 3rem;
+  background-color: #b7b7b7;
+  color: #2e343d;
+  border-radius: 100px;
+  border: 155px;
+  padding: 13px;
+  margin-top: 2rem;
+}
+
+.le{
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.re {
+  padding-right: 1rem;
+}
+
+.lef{
+  padding-left: 1rem;
+}
+
