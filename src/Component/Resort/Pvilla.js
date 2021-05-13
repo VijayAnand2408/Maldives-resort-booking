@@ -2,8 +2,8 @@ import React from 'react'
 
 function Pvilla() {
     return (
-        <div id="pvilla">
-            <h1>gfhgfhgduytdyjdydjytdtd</h1>
+        <div>
+            <h1>premium</h1>
         </div>
     )
 }

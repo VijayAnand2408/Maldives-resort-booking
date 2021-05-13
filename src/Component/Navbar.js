@@ -1,5 +1,6 @@
 import {useState} from "react"
 import {Link} from "react-scroll"
+import {Link as Link2} from "react-router-dom"
 
 const Navbar= () => {
   const [navbar, setnavbar] = useState(false);
@@ -26,11 +27,11 @@ const Navbar= () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item ">
-        <Link className="nav-link" to="home" smooth={true} duration={750}>Home <span className="sr-only">(current)</span></Link>
+       <Link2 to="/home" className="nav-link"> <Link  to="home" smooth={true} duration={750}>Home <span className="sr-only">(current)</span></Link> </Link2>
       </li>
      
       <li className="nav-item">
-        <Link className="nav-link" to="resort" smooth={true} duration={750}>Book Now!</Link>
+      <Link2 to="/home" className="nav-link"><Link  to="resort" smooth={true} duration={750}>Book Now!</Link></Link2> 
       </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -42,13 +43,13 @@ const Navbar= () => {
         </div>
       </li>
       <li className="nav-item">
-          <Link className="nav-link" to="gallary" smooth={true} duration={750}>Photos</Link>
+      <Link2 to="/home" className="nav-link"><Link  to="gallary" smooth={true} duration={750}>Photos</Link></Link2>
         </li>
         <li className="nav-item">
           <a className="nav-link" to="#">Contact</a>
         </li>
         <li className="nav-item">
-        <Link className="nav-link" to="about" smooth={true} duration={750}><a>About Us</a></Link>
+        <Link2 to="/home" className="nav-link" ><Link to="about" smooth={true} duration={750}><a>About Us</a></Link></Link2>
       </li>
     </ul>
   </div>
