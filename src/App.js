@@ -32,7 +32,7 @@ export class App extends Component {
           <Route path="/home">  <Resort /></Route>
           <Route path="/home"> <Gallary /></Route>
           <Route path="/home">  <About /></Route>
-           <Route path="/previlla">   <Pvilla /> </Route>
+           <Route path="/previlla"><Pvilla /> </Route>
             <Route path="/villa">   <Villa /> </Route>
             <Route path="/watervilla">   <Wvilla /> </Route>
           </Switch>

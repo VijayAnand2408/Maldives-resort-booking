@@ -1,5 +1,6 @@
 import {useState} from "react"
 import {Link} from "react-scroll"
+import {Link as a} from "react-router-dom"
 import {Link as Link2} from "react-router-dom"
 
 const Navbar= () => {
@@ -27,7 +28,7 @@ const Navbar= () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item ">
-       <Link2 to="/home" className="nav-link"> <Link  to="home" smooth={true} duration={750}>Home <span className="sr-only">(current)</span></Link> </Link2>
+       <Link2 to="/home" className="nav-link"> <Link  to="home" smooth={true} duration={750}>Home </Link> </Link2>
       </li>
      
       <li className="nav-item">

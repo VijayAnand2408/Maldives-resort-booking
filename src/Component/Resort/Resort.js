@@ -34,7 +34,7 @@ function Resort() {
                     
                     
                     </p><br /><br />
-                    <Link to='/previlla' className="btn btn-primary">View Deals</Link>
+                    <a href="/previlla" className="btn btn-primary">View Deals</a>
                 </div>
 
                 </div>
