@@ -3,7 +3,9 @@ import {BiBed} from "react-icons/bi"
 import {FaUmbrellaBeach} from "react-icons/fa"
 import {GiWineBottle,GiCook,GiWaterfall} from "react-icons/gi"
 import { Link } from "react-router-dom";
+import Button from 'react-scroll/modules/components/Button';
 import { Pvilla } from "./Pvilla"
+import history from './history'
 
 function Resort() {
     return (
@@ -32,7 +34,7 @@ function Resort() {
                     
                     
                     </p><br /><br />
-                    <Link to="/previlla" className="btn btn-primary">View Deals</Link>
+                    <a to='/pvilla' className="btn btn-primary">View Deals</a>
                 </div>
 
                 </div>

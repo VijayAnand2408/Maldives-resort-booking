@@ -1,35 +1,30 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Navbar from "./Component/Navbar"
-import Header from "./Component/Header"
-import About from "./Component/About"
-import Services from "./Component/Services"
-import Resort from "./Component/Resort"
-import Gallary from "./Component/Gallary"
+import Home from "./Component/Home"
 import Footer from "./Component/Footer"
-import {BrowserRouter as Router,Route} from "react-router-dom"
+import {BrowserRouter as Router,Route,Switch} from "react-router-dom"
 import Pvilla from "./Component/Pvilla"
 
 
+import React, { Component } from 'react'
 
-function App() {
-  return (
-  <div>
-    <Router>
-   <Navbar />
-   <Header />
-   <Services />
-   <Resort />
-   <Gallary />
-   <About />
-   <Footer />
-   
-  
-<Route path="/previlla" Component={Pvilla} />
+export class App extends Component {
 
-</Router>
-  </div>
-  );
+  state ={
+    visible: true
+  }
+
+
+  render() {
+    return (
+      <div>
+        <Navbar />
+       { this.state.visible ? <Home /> : null} 
+        <Footer />
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
