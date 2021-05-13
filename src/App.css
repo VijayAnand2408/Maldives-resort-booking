@@ -9,6 +9,85 @@ Link:hover{
   cursor: pointer;
 }
 
+/* ______________________________Start_______________________________________*/
+.start-img{
+ 
+  background-color: #2e343d;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.img-fluid{
+  background-size: cover !important;
+  background-position: center !important;
+  z-index: -1 !important;
+}
+
+.btn.st{
+  width: 30%;
+}
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #BFC0C0;
+  margin: 20px 20px 20px 20px;
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #BFC0C0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+
+
+#button-2 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-2 a {
+  position: relative;
+  transition: all .35s ease-Out;
+}
+
+#slide {
+  width: 100%;
+  height: 100%;
+  left: -200px;
+  background: #BFC0C0;
+  position: absolute;
+  transition: all .35s ease-Out;
+  bottom: 0;
+}
+
+#button-2:hover #slide {
+  left: 0;
+}
+
+#button-2:hover a {
+  color: #2D3142;
+}
+
+
+
+
+
 
 /*______________________________Navbar__________________________________*/
 
@@ -79,7 +158,7 @@ Link:hover{
 
 /*________________________________Header_______________________________________*/
 
-.img-fluid{
+.imge-fluid{
   background-image: url("./images/maldives-wallpaper.jpg");
   position: relative;
   background-size: cover;
@@ -293,5 +372,48 @@ hr.h{
 
 .lef{
   padding-left: 1rem;
+} 
+
+
+
+/*_________________________Villa______________________________*/
+
+.villa{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  
+  width: 100%;
 }
+
+.inter{
+  text-align: center;
+   font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.des{
+  text-align: center;
+  margin-top: 7rem;
+  padding-top: 5rem;
+
+}
+
+.we{
+  display: flex;
+  justify-content: center;
+  color: darksalmon;
+ 
+}
+
+.desi{
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding-bottom: 3rem;
+}
+
 

@@ -63,7 +63,7 @@ function Resort() {
                             <span className="col"><FaUmbrellaBeach /> Private beach</span>
                         </span>
                             </p><br /><br />
-                            <a href="watervilla" className="btn btn-primary">View Deals</a>
+                            <a href="watervilla" className="btn ca btn-primary">View Deals</a>
                         </div>
 
                         </div>

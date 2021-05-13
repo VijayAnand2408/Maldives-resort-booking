@@ -9,11 +9,11 @@ function Footer() {
         <div className="foot " >
             <div className="container">
           <div className="row">
-              <a href="#" className="col" ><FaFacebookF className="ico"/></a>
-              <a href="#" className="col" ><AiFillInstagram className="ico"/></a>
-              <a href="#" className="col" ><FaLinkedinIn className="ico"/></a>
-              <a href="#" className="col" ><AiOutlineTwitter className="ico"/></a>
-              <a href="#" className="col" ><AiFillYoutube className="ico"/></a>
+              <a href="" className="col" ><FaFacebookF className="ico"/></a>
+              <a href="" className="col" ><AiFillInstagram className="ico"/></a>
+              <a href="" className="col" ><FaLinkedinIn className="ico"/></a>
+              <a href="" className="col" ><AiOutlineTwitter className="ico"/></a>
+              <a href="" className="col" ><AiFillYoutube className="ico"/></a>
               </div>
             <hr className="h" />
            <p className="h4">© 2021 mydives.com All rights reserved.</p>

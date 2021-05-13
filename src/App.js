@@ -6,9 +6,8 @@ import Footer from "./Component/Footer"
 import {BrowserRouter as Router,Route,Switch} from "react-router-dom"
 import Pvilla from "./Component/Resort/Pvilla"
 import Villa from "./Component/Resort/Villa"
-
 import Wvilla from "./Component/Resort/Wvilla"
-
+import Start from "./Component/Start"
 import About from "./Component/About"
 import Services from "./Component/Services"
 import Resort from "./Component/Resort/Resort"
@@ -25,8 +24,9 @@ export class App extends Component {
       <div>
         <Router>
         <Navbar />
-
+        
         <Switch>
+           <Route path="/" exact><Start/></Route>
           <Route path="/home"> <Home /></Route>
           <Route path="/home"> <Services /></Route>
           <Route path="/home">  <Resort /></Route>
