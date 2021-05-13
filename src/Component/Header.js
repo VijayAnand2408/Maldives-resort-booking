@@ -4,7 +4,7 @@ import Typed from "react-typed"
 
 function Header() {
     return (
-      <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron jumbotron-fluid" id="home">
       <div  className= "img-fluid">
           <div className="wrap">
               <h1>Welcome to <br /> <span className="type"><Typed className="type"

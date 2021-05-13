@@ -7,11 +7,15 @@ import Services from "./Component/Services"
 import Resort from "./Component/Resort"
 import Gallary from "./Component/Gallary"
 import Footer from "./Component/Footer"
+import {BrowserRouter as Router,Route} from "react-router-dom"
+import Pvilla from "./Component/Pvilla"
+
 
 
 function App() {
   return (
   <div>
+    <Router>
    <Navbar />
    <Header />
    <Services />
@@ -21,6 +25,9 @@ function App() {
    <Footer />
    
   
+<Route path="/previlla" Component={Pvilla} />
+
+</Router>
   </div>
   );
 }

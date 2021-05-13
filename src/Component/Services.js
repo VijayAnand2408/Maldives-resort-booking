@@ -8,7 +8,7 @@ import {GiWineBottle,GiScubaMask,GiCruiser} from "react-icons/gi"
 
 function Services() {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="service">
             <div className="ser">
 
             

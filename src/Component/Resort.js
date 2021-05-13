@@ -2,11 +2,13 @@ import React from 'react'
 import {BiBed} from "react-icons/bi"
 import {FaUmbrellaBeach} from "react-icons/fa"
 import {GiWineBottle,GiCook,GiWaterfall} from "react-icons/gi"
+import { Link } from "react-router-dom";
+import { Pvilla } from "./Pvilla"
 
 function Resort() {
     return (
- <>
-<div className="chill">
+ <div id="resort">
+<div className="chill" >
     <h2>Chill'n Spot
         <br />
         <h1>_____</h1>
@@ -30,7 +32,7 @@ function Resort() {
                     
                     
                     </p><br /><br />
-                    <a href="#" className="btn btn-primary">View Deals</a>
+                    <Link to="/previlla" className="btn btn-primary">View Deals</Link>
                 </div>
 
                 </div>
@@ -66,7 +68,7 @@ function Resort() {
                     
 
   </div>
-  </>  );
+  </div>  );
 }
 
 export default Resort;
